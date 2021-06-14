@@ -25,21 +25,23 @@ namespace App1
     {
         public MainPage()
         {
-            this.InitJson();
             this.InitializeComponent();
+            empList = new ListView();
+            this.InitJson();
         }
         private async void InitJson()
         {
-            string FilePath = "Assets/employee.json";
+            string FilePath = Path.Combine(Package.Current.InstalledLocation.Path, "employee.json");
             using (StreamReader file = File.OpenText(FilePath))
             {
                 var json = file.ReadToEnd();
                 Dictionary<string, object> result = Newtonsoft.Json.JsonConvert.DeserializeObject<Dictionary<string, object>>(json);
-                string contacts = result["country_list"].ToString();
+                string contacts = result["employee_list"].ToString();
                 List<data.Employee> objResponse = Newtonsoft.Json.JsonConvert.DeserializeObject<List<data.Employee>>(contacts);
-                countryList.ItemsSource = objResponse;
+                empList.ItemsSource = objResponse;
+                System.Diagnostics.Debug.WriteLine(Package.Current.InstalledLocation.Path);
+
             }
-            System.Diagnostics.Debug.WriteLine(Windows.Storage.ApplicationData.Current.LocalFolder.Path);
 
         }
     }

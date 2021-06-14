@@ -30,13 +30,13 @@
     <AppXManifest Include="F:\Tay\UWPTest\Exam\App1\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-14T12:41:32.864</Modified>
+      <Modified>2021-06-14T13:02:10.666</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="F:\Tay\UWPTest\Exam\App1\bin\x86\Debug\App1.exe">
       <PackagePath>entrypoint\App1.exe</PackagePath>
-      <Modified>2021-06-14T12:41:31.999</Modified>
+      <Modified>2021-06-14T13:02:09.289</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\taikh\.nuget\packages\newtonsoft.json\13.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -90,15 +90,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Tay\UWPTest\Exam\App1\bin\x86\Debug\App1.xr.xml">
       <PackagePath>App1.xr.xml</PackagePath>
-      <Modified>2021-06-14T12:28:56.733</Modified>
+      <Modified>2021-06-14T13:02:09.066</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Tay\UWPTest\Exam\App1\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-06-14T12:41:31.810</Modified>
+      <Modified>2021-06-14T13:02:09.098</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Tay\UWPTest\Exam\App1\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-06-14T12:41:31.810</Modified>
+      <Modified>2021-06-14T13:02:09.098</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -110,7 +110,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Tay\UWPTest\Exam\App1\bin\x86\Debug\Core\App1.exe">
       <PackagePath>App1.exe</PackagePath>
-      <Modified>2021-06-14T12:41:32.857</Modified>
+      <Modified>2021-06-14T13:02:10.648</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

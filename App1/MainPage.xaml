@@ -9,6 +9,16 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <ListView x:Name="empList">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Height="50" Width="50" Text="{Binding name}"></TextBlock>
+                        <TextBlock Height="50" Width="50" Text="{Binding role}"></TextBlock>
+                        <TextBlock Height="50" Width="50" Text="{Binding birthyear}"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </Grid>
 </Page>
